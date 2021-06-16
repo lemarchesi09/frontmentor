@@ -1,4 +1,10 @@
-
+body{
+    background-color: mediumturquoise;
+    width: 1024px;
+    height: 960px;
+    display: flex;
+    flex-direction: row;
+}
 
 p{
     font-family: 'Kumbh Sans', sans-serif;
@@ -6,20 +12,30 @@ p{
 }
 
 .logo{
-    margin-top: 63px;
+    margin-top: 124px;
 }
 
-body{
-    background-color:hsl(185, 75%, 39%) ;
+
+
+section{
     width: 1024px;
-    height: 960px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
 }
 
-.container_card{
-    width: 450px;
-    height: 420px;
+.bg1{
+    background-image: url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: left -510px top -369px;
+
+}
+.bg2{
+    background-image: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right -510px bottom -369px;
     
 }
 .card{
